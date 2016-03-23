@@ -58,7 +58,6 @@ public class RecorderItemAdapter extends CursorAdapter {
             TextView tstart_v = (TextView) view.findViewById(R.id.start_time);
             TextView tend_v = (TextView) view.findViewById(R.id.end_time);
             Button b_v = (Button) view.findViewById(R.id.end);
-            Button d_v = (Button) view.findViewById(R.id.delete);
 
             final int id = cursor.getInt(cursor.getColumnIndex("_id"));
             final String event_string = cursor.getString(cursor.getColumnIndex("event"));

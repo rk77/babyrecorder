@@ -29,11 +29,9 @@
         android:id="@+id/end_time"
         android:background="#9000FF00"
         android:layout_marginLeft="8px"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
-
         android:id="@+id/end"
         android:visibility="gone"
         android:includeFontPadding="false"
@@ -41,17 +39,6 @@
         android:layout_width="39dp"
         android:layout_height="29dp"
         android:text="End"
-        android:textSize="13dp"
-        android:minHeight="5dp"
-        />
-    <Button
-        android:id="@+id/delete"
-        android:visibility="gone"
-        android:includeFontPadding="false"
-        android:padding="0px"
-        android:layout_width="39dp"
-        android:layout_height="29dp"
-        android:text="Del"
         android:textSize="13dp"
         android:minHeight="5dp"
         />

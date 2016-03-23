@@ -24,13 +24,15 @@
             android:id="@+id/update_tstart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:inputType="number"/>
 
         <EditText
             android:id="@+id/update_tend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:inputType="number"/>
     </LinearLayout>
 
     <RelativeLayout
